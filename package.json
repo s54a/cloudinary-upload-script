@@ -1,4 +1,12 @@
 {
+  "name": "cloudinary-video-upload-script",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "upload": "node index.js"
+  },
   "dependencies": {
     "cloudinary": "^2.9.0",
     "dotenv": "^17.2.3"
